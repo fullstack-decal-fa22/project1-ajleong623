@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title id="title">My Website!</title>
+    <author>Anthony Leong</author>
+  </head>
+
+  <body>
+    <div class="flex-container">
+        <div><h1>Introduction:</h1>
+        <h5>Hi, My name is Anthony Leong, and I am a Sophomore in UC Berkeley, majoring in
+            mathematics and data science. 
+            Some of my academic interests include mathematics, programming, 
+            and data analysis. </h5></div>
+        <div><h1>About Me:</h1>
+        <h6>Some things I bring to the table is that I have an extensive background
+        in mathematics. While I have not yet published research papers, I have participated
+        in competitions in high school and was a part of a math circle. 
+        <br>
+        Additionally, I 
+        have a passion for learning more about data science and programming. When I see a property that I do not understand
+        at first, I think that "I have to get to the bottom of it" and just work until I feel more confident.
+
+        </h6></div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2 style="font-size: small;">Projects:</h2></div>
+        <div class="grid-item"><h3 id="fonts">
+            Project 1: Climate</h3>
+            <h5>In this project, I analyzed long-term datasets about the average temperatures per year. 
+                The question was whether the temperature has changed significantly from the past to the 
+                present. We did a hypothesis test and set up a similation to look for the confidence 
+                intervals of the present average.
+            </h5>
+        </div>
+        <div class="grid-item"><h3 id="fonts">
+            Project 2: Movies</h3>
+            <h5>I got to classify whether a given set of movies is a horror or a comedy. I did this by using
+                the frequency of certain words as a perameter and then using a k-nearest neighbors
+                classification algorithm. I did this for a training set of movies then tested it on a 
+                testing set. 
+            </h5>
+        </div>
+        <div class="grid-item"><a target="_blank" href="https://cs61a.org/proj/hog/"><h3 id="fonts">
+            Project 3: Hogs</h3></a>
+            <h5>In this project, I made a counting game called Hog. The instructions to making the game was 
+                provided by the project, and here, I demonstrated the fundamental programming concepts of loops, 
+                higher-order-functions, and conditional statements. 
+            </h5>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAA0lBMVEX/x9j////tkaf/y9z/zt//ydkmQoL2u836wdP37vC+V3PsjaPguMH8+Pn8xNW6Tmz05unytMbkn7PQdo/Se5PQjp7rq77XoK3WhZt1Jy/s1Nnv3ODDXnnKfpG/X3jkwsrKa4UANXzflqrdr7plEhjGcYfoy9K0M1rbjqN+cp42SYYZPYAAL3nvm7DVmahtHST1q764QWNKU4xXapgAJXVqZpeahKlDWY3HzNnsvdGlq8I2UorWrse7nbtve6Pc3+eRm7cAF3BfWo+2u86DNkCTRlMB4Q35AAAJ9UlEQVRogb2bC3ebuBKARUcqWLGReRgTG2PFDg5JGjd0227Tprt377b//y+tBH4gEBicpnNOe3Ji0OfRjEYzIwUZUjZ0sR3ORsZvE5T/n6yClc+zeD3/ndhxZAEAsQM/ouvBb8MOPYykAKDAo9vfAM6xiQtoJwCmT4e/BTuITVQS7ESL1/YuiZ1HSBFC/PiVJ1pi96YtKRxGr6uvxE5WgGrc5NWxcUCqWISj9WtjqVmjImSy8etiB7GlweJwUjwxmG+Ww+F6uFxu5r/M0VAeozRYZEaDwWaaMMq55/m+73k8pnSx/iWhO8fadSjBFucxD13TshEBLIMnsW3H9aN4sXkxWWJ5DQvg+JHvmghXfJwA2OYqircvNLzEVm1LIODRyqwi95/mX4pOXgSWLlWxLZgJdW0982iCkL1kyxDYkbKACElZCq3QXLDpsWV1tMFyO1kImUxPmL8aLsCMuVWNlQ3ggClbxmBKM566QRC4qzC64dOWnKESHLHL3G5Q+RXBzw4WHi9uQgdj6fBEeD6GIGSsMWfItwK+IxEcUrMzNf+WN8VEjyY3wjJKjBVsx79Z6FUuNr7dCgKP2/Xw3KqwmU3FCDPq2VB/k4CdZgudxnl2sTMucI/0o4p3LDY1lsxt8kEANmvCrvMNF7jfF5pzo0XkNHs+vtH5dJE5iiVEwPNPLxuNECsKm/2BOLTJtsKXUwwhP4uacxvnGMFq0oydM8ulZ8zwbmiTBo229bRpaIE1tpyaZ2MRBFS7dyJpWu3S3WFHWWWexILvwcVpg4VIoDXtHjtRk0cCt+8+PPXgkrieBkoBX5+SFdgNU7dc/OHqj4+feuhLTKabZoIyfXjMsaNYnWL4/KdhfLnvoy6ktWRb/nbVkPcW4UK1DCEfv4rffnvu5WTU0UTHaNOMHUXqG/D93V+G8fdVLyy4UU1dcGM9NcdWlEVwe3/11/++9cMiqKtr0wZlc2xFWUQ+3L+9v7q/a7Yt0bgtrKrWhbSxohHYTVT5lnD3Vsj9bZMnE3j+rslxUab+kjjNhYXALqpLDj5IbOMcE/j0z8e7+vaKfXUg0lJGIWNUW3HCtkLZT41h9vbPL1//+V77mASKj2B/0UgV2A2vvf/08f7qg24a80+fP4r3vmq+Fc5KCuA0bkkekdj0agPA86fPjXkG3L4V7335v6Y49Y5RB6e0LY1GBtMtc9BkRjt5urv61zD+0GBhdUgURC7YmryjAeu3u5Ond2/vv91d3dZfIw7f8ZHHT6Tns55JBXy/Ev729qruUkKKHQU7bHKiJkTDnhlUjhVgXSzBMvCA5dNalVLDTuseVQhBMr+vWZA8v5OL+rPuLeFT2Erp5HRNhiba9EvQLNORYkp++SNbxLD7O/2mnoYha6gDKtik3qYhYD4+vLnYy5uHx3KtIPanq7snraPDinWstxGvrh9iP765eKPKxYN5VA+enhuiNbja7FSHrXaHwKkyd+CSxk1rmriLsZDB6dZGFQuPWqoEt1Qce2zAKKWMZRlbTJetUUrdCIhe14L7eIpLAi8vb5HtuCGndKqrunbaqtiHRqrU90S6kWOLn2Qz3gmjuGEFI7WXbBcAv0FnXZewjHWV2CPKWzeKtXkNShQVrHz0H9fvEz23HQurau0Hok7R1dVooYQLU46dvL+8/Nlg3tZphlSziRKfHgPIYLes0VbJRKwd9r0e++ahVVvs60Iedtl+oteMyZU9mqNhWH6ysO3P60vVuMmPn8UvLlqtiyNNZzrvJBUuPWcDg29k3w9tlI0PtJ4cCvV/dJhloi2Ecm5u36nI6YZb8UOGxqw8ENFGC//68vKyA9aMm6ZhFUlsMiuwI4aMTJk3S2vSn9fXhWtfOG3Kuo17N3DZR1qICZaTvFmgSprcEBwPC9lq0baaKJe/UX4GsOTGeiFrrg0ylp7yrF7dvTy0zTFmzY0IyM8AFjHbzId0KzLHMVUy4raoLJTdDaLVyIlagrbFEs6TySRJFrO8GOHqYtN71c6yhTaWNhGCsCk/Kj7dzo9HHEh2OtWnG7n7LUhU7tpMqmWO5Vxk5eBYbWPLYc0HHfi48TFd0IAgbm12AJsrWGNb83twRCpVgT5Yu6cg1LUpENYdnpXHDKcqdqz59iKLu9iTL8R3OCZT4DBdVSa2mvbODriJihXq6rosYDmPD1IeH83j4QGYTNvpA308Lol1U8EOdF0WJFs2MkdH5RwdB1Tb1Qe33bLy1WOHf9cOW7etuPLgdtrQ1bQavnkZW+oW7Zp/yapLyw1c6pv6esBv6SkfnllXsWNdlVsTEjj6uhdc3Tlh9aF0WsUaQ3qailBDiQ8OPZ1Ei0xrW8MaE96nk6uKHXexUblUOWCNOD2XS7qdMohSRYMdZZ3cqi7Y95o7HWVsoMMag5vu52wKlXfrTTZgjQE7Q1/s8Y5PNmFFtAq7hY3jUIQnXV/R2zbnJrz9vLgiYEbdOy7lIyEVa4wmXVbgYSC3j1l04eIgQ5rqusW6YawwCno4Ay6dRNWwxjiJgg4LAogb+b0sgqNZC1YozDzzBFgUkDzuoypSzzZ1WGM0zTyn5VqAhFK3w72BshCzlMNpsQK8zqKVhbUn0NhMaW+odOTFSayQzeSGpgHCxb0Wec4PGGPLDSkLHdz/HFI522zGCpltM8Z4uHKLWw2pH2fMWzm6SeiALZ+7tWJF0ZJa7ir0PSF+mK6C/D7kGcw8syyNewI7yETSKEj7f2cRC6xytnkCKxbT+SRFbFZu2JzCiqzjBSoeRUnOO2CNhfdLuJHSjzuNNajf8+qJTtnKYXkH7CSK9clxDyFcvZDQAbsOg3PSDoUaULXH3AG75NjmsfUShaGibBfsTPhyr3tUOmyls9wBO5e3mcDyXqDwOdjd9UtRdzVfnTkhJOqP3d8MBIuHPVaSsjNGlcOh7trm16X9ruqBlZbmxoorx0OdbHt4Hced8lMgjh/FpcaKWb3d3QG7OUZlzPWNC0VPYq04m47nx5sGJKheSeiAnR5LBTueaptDe6LYGoOU01A2R0o32iGtnoZ1icmHFgxxkplyPR6XhcjDH8ZF9pHvNiVtoerIHbCjYxtKlBPqreIoo/Lyssc5zRiV14ol38wkZXZowxCndjugg7bZoYeMo82Al/ryJhvPNkMhy818zH1LMu0gzPJIuDxc2oT6BYwO2O3enMShowE/duwqW/eWZlHEWDItFovwgjy/BPCT2lljB+wo8Uw5AID8q47ScVX1et1oPJsde7cbLvJd0zKDKKmfP3XAGqMt9QPTDKj0x9I9W4u2nhGPZtskjnky1JyrdsGKQLVOYl4cEy4P16Igbbm9spPBoOVSWhfZvz+KdwEDTHr+Hy11xh5kyOTlXAJ2ND398K/DGtMsdSxzxbanH/2VWGO+5SyevOjPwv4D72S4YtW4V5QAAAAASUVORK5CYII="/
+            alt="my_picture">
+        </div>
+      </div>
+    </div>
+    <div class="flex-container2">
+        <div>
+            <h2>Work:</h2>
+            <h4>I am not really a part of an academic club yet, but some programs on campus that I have been 
+                doing are the Web Development Decal and the Data Science Society Decal. I work at the Student 
+                Learning Center as a peer tutor. 
+            </h4>
+        </div>
+        <div>
+            <h2>Fun Activities:</h2>
+            <h4>A fun extracurriculars I do is Triathlon Club! I had been a cross country and track and field 
+                runner in high school and developed a passion for a sport. Since I am not quite fast enough to 
+                make the team, I can still meet new people and enjoy the thrills of racing through the Triathlon Club!
+            </h4>
+        </div>
+        <div>
+            <h2>Contact:</h2>
+            <h4>Phone Number: 1(415)527-7030
+                <br>
+                Email: aj.leong623@gmail.com
+            </h4>
+        </div>
+    </div>
+
+    <h2>Can you guess my favorite movie?</h2>
+    <form>
+        <label>Response:</label>
+            <input type="text" id="answer">
+            <br>
+            <script>
+                document.getElementById('mybutton') = function {
+
+                    var myResponse = document.getElementById("answer").value;
+                    if (myResponse == Megamind) {
+                        console.log("Correct")
+                    else {console.log("Try again")}
+                    }
+                }
+            </script>
+            <button type="submit" id="mybutton">Submit!</button>
+            <button onclick="alert('What is the difference between a villain and supervillain? Presentation!')">Hint 1</button>
+            <button onclick="alert('Titan')">Hint 2</button>
+            <button onclick="alert('The movie is very subversive')">Hint 3</button>
+            <button onclick="alert('Megamind')">Answer</button>
+    </form>
+  </body>
+</html>
